@@ -1,0 +1,35 @@
+
+programa 
+{
+  inclua biblioteca Util --> x
+  funcao sort(inteiro v_Inicial, inteiro v_Final)
+  {
+    retorne(x.sorteia(v_Inicial, v_Final))
+  }     
+  funcao inicio() 
+  {
+    escreva("Start")
+    inteiro vetor[11]
+    para(inteiro i = 1; i < 11; i++)
+    {
+        vetor[i] = sort(1, 50)
+        escreva("\nVariavel: ", " ",i, " ", "---> " , vetor[i])
+    }    
+    
+  }
+}
+
+programa 
+{ 
+  funcao inicio() 
+  {
+    escreva("Inicio da contagem...")
+    inteiro vetor[11]
+    para(inteiro i = 1; i < 11; i++)
+    {
+        vetor[i] = i
+        escreva("\nContando: ", " ",i, " na posição ", "---> ", vetor[i])
+    }    
+    
+  }
+}
