@@ -24,6 +24,8 @@ usuario = Pessoa('Adriano')
 print(usuario.login)
 
 usuario.logar()
+usuario.logar()
 print(usuario.login)
+usuario.deslogar()
 usuario.deslogar()
 print(usuario.login)
