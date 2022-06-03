@@ -1,5 +1,21 @@
 # ex073.py
+"""
+class Calcula:
+    def __init__(self, a, b) -> None:
+        self.a = a
+        self.b = b
 
-for i in range(200, 2200): # percorrer todos os nums entre 3000 e 3200 (inclusive)
-    if(i%7 == 0 and i%5 != 0): # modulo para ver se e multiplo de 7 e nao de 5
-        print(i) # imprimir num
+
+    def analisa(self):
+        for i in range(self.a,self.b): 
+            if(i%7 == 0 and i%5 != 0):
+                return i  
+                #print(i, end=',')
+                 
+resultado = Calcula(200,2200)
+print(resultado.analisa())"""
+
+for i in range(200,2200): 
+    if(i%7 == 0 and i%5 != 0): 
+        print(i, end=',')
+
