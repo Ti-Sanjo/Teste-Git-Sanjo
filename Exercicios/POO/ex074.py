@@ -14,7 +14,7 @@ class Calculadora:
     def mult(self):
         return self.a * self.b
 
-operacao = Calculadora(input(int('Digite o 1º nº:')), input(int('Digite o 2º nº:')))
+operacao = Calculadora(int(input('1º nº: ')),int(input('2º nº: ')))
 print(f' A soma é {operacao.soma()}')
 print(f' A subtração é {operacao.sub()}')
 print(f' A divisão é {operacao.div()}')
