@@ -10,7 +10,7 @@ def compara():
 
     if len(palavra1) > len(palavra2):
         print (palavra1)
-    if len(palavra2) > len(palavra1):
+    elif len(palavra2) > len(palavra1):
         print(palavra2)
     else:
         print(palavra1, palavra2)
