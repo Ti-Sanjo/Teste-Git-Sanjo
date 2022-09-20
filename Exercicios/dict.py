@@ -12,5 +12,6 @@ empresa['Empresa9'] = 'Havan Labs',
 empresa['Empresa10'] = 'T-Systems',
 empresa['Empresa11'] = 'Unifique',
 cria_lista.append(empresa.copy())
-print (cria_lista)
+print(cria_lista)
+print(len(cria_lista))
 print(empresa)
